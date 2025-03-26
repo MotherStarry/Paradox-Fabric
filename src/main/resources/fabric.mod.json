@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "paradox",
+	"version": "${version}",
+	"name": "Paradox",
+	"description": "Originally a data-pack but now a mod mainly adding a prison system!",
+	"authors": [
+		"MotherStarry"
+	],
+	"license": "MIT",
+	"contact": {
+		"sources": "https://github.com/MotherStarry/Paradox"
+	},
+	"icon": "assets/paradox/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.starry.paradox.Paradox"
+		],
+		"fabric-datagen": [
+			"net.starry.paradox.ParadoxDataGenerator"
+		],
+		"client": [
+			"net.starry.paradox.ParadoxClient"
+		]
+	},
+	"mixins": [
+		"paradox.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
