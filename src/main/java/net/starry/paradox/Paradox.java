@@ -2,6 +2,7 @@ package net.starry.paradox;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.starry.paradox.item.Moditems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,5 +13,6 @@ public class Paradox implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Meow!");
-	}
+		Moditems.registerModItems();
+    }
 }

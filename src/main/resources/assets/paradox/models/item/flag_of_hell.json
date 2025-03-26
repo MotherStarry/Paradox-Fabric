@@ -1,0 +1,6 @@
+{
+  "parent": "minecaft:item/generated",
+  "textures": {
+    "layer0": "paradox:item/flag_of_hell"
+  }
+}
