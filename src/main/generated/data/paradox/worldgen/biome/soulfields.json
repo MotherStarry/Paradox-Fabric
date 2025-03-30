@@ -1,0 +1,94 @@
+{
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "downfall": 0,
+  "effects": {
+    "fog_color": 6235496,
+    "grass_color": 2367281,
+    "foliage_color": 2367281,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:entity.ghast.scream",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 600,
+      "min_delay": 300,
+      "replace_current_music": true,
+      "sound": "minecraft:entity.ghast.scream"
+    },
+    "sky_color": 2367281,
+    "water_color": 2367281,
+    "water_fog_color": 2367281,
+    "particle": {
+      "options": {
+        "type": "minecraft:soul"
+      },
+      "probability": 0.005
+    }
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand"
+    ],
+    [],
+    [
+      "minecraft:spring_lava"
+    ],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:vex",
+        "weight": 3,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:wither_skeleton",
+        "maxCount": 8,
+        "minCount": 4,
+        "weight": 1
+      },
+      {
+        "type": "minecraft:blaze",
+        "maxCount": 8,
+        "minCount": 4,
+        "weight": 1
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2
+}
